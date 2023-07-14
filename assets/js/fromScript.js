@@ -35,7 +35,7 @@ function renderPlaces(places) {
       `latitude: ${latitude}; longitude: ${longitude};`
     );
     model.setAttribute("gltf-model", "./assets/models/magnemite/scene.gltf");
-    model.setAttribute("rotation", "0 180 0");
+    model.setAttribute("rotation", "0 0 0");
     model.setAttribute("animation-mixer", "");
     model.setAttribute("scale", "0.5 0.5 0.5");
 
